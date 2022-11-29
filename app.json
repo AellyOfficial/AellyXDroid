@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/AellyOfficial/FallenRobot",
+   "repository": "https://github.com/AellyOfficial/AellyXDroid",
    "stack": "heroku-20",
    "addons": [
       {

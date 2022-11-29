@@ -1,7 +1,7 @@
 from pyrogram import filters
 
-from FallenRobot import pbot, aiohttpsession
-from FallenRobot.utils.errors import capture_err
+from AellyXDroid import pbot, aiohttpsession
+from AellyXDroid.utils.errors import capture_err
 
 
 @pbot.on_message(filters.command("github"))

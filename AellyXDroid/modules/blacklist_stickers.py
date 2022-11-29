@@ -7,16 +7,16 @@ from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandle
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import FallenRobot.modules.sql.blsticker_sql as sql
-from FallenRobot import LOGGER, dispatcher
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.alternate import send_message
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from FallenRobot.modules.helper_funcs.misc import split_message
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.warns import warn
+import AellyXDroid.modules.sql.blsticker_sql as sql
+from AellyXDroid import LOGGER, dispatcher
+from AellyXDroid.modules.connection import connected
+from AellyXDroid.modules.disable import DisableAbleCommandHandler
+from AellyXDroid.modules.helper_funcs.alternate import send_message
+from AellyXDroid.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from AellyXDroid.modules.helper_funcs.misc import split_message
+from AellyXDroid.modules.helper_funcs.string_handling import extract_time
+from AellyXDroid.modules.log_channel import loggable
+from AellyXDroid.modules.warns import warn
 
 
 @run_async

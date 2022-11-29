@@ -2,11 +2,11 @@ from typing import Dict, Union
 
 from pymongo import MongoClient
 
-from FallenRobot import MONGO_DB_URI
+from AellyXDroid import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["FallenRobot"]
+db = client["AellyXDroid"]
 
 coupledb = db.couple
 karmadb = db.karma

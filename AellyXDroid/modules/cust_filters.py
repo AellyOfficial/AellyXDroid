@@ -15,23 +15,23 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from FallenRobot import DRAGONS, LOGGER, dispatcher
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.alternate import send_message, typing_action
-from FallenRobot.modules.helper_funcs.chat_status import user_admin
-from FallenRobot.modules.helper_funcs.extraction import extract_text
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from FallenRobot.modules.helper_funcs.misc import build_keyboard_parser
-from FallenRobot.modules.helper_funcs.msg_types import get_filter_type
-from FallenRobot.modules.helper_funcs.string_handling import (
+from AellyXDroid import DRAGONS, LOGGER, dispatcher
+from AellyXDroid.modules.connection import connected
+from AellyXDroid.modules.disable import DisableAbleCommandHandler
+from AellyXDroid.modules.helper_funcs.alternate import send_message, typing_action
+from AellyXDroid.modules.helper_funcs.chat_status import user_admin
+from AellyXDroid.modules.helper_funcs.extraction import extract_text
+from AellyXDroid.modules.helper_funcs.filters import CustomFilters
+from AellyXDroid.modules.helper_funcs.handlers import MessageHandlerChecker
+from AellyXDroid.modules.helper_funcs.misc import build_keyboard_parser
+from AellyXDroid.modules.helper_funcs.msg_types import get_filter_type
+from AellyXDroid.modules.helper_funcs.string_handling import (
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
     split_quotes,
 )
-from FallenRobot.modules.sql import cust_filters_sql as sql
+from AellyXDroid.modules.sql import cust_filters_sql as sql
 
 HANDLER_GROUP = 10
 

@@ -4,7 +4,7 @@ from telethon import __version__ as tlhver
 
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from FallenRobot import pbot, BOT_NAME, BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
+from AellyXDroid import pbot, BOT_NAME, BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 
 @pbot.on_message(filters.command("alive"))

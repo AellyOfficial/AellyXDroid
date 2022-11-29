@@ -6,7 +6,7 @@ from telegram import __version__ as o
 from telethon import __version__ as s
 from platform import python_version as y
 
-from FallenRobot import pbot, OWNER_ID, BOT_NAME, BOT_USERNAME, START_IMG
+from AellyXDroid import pbot, OWNER_ID, BOT_NAME, BOT_USERNAME, START_IMG
 
 
 @pbot.on_message(filters.command(["repo", "source"]))
@@ -31,7 +31,7 @@ async def repo(_, message: Message):
                     ),
                     InlineKeyboardButton(
                         "sᴏᴜʀᴄᴇ",
-                        url="https://github.com/AellyOfficial/FallenRobot",
+                        url="https://github.com/AellyOfficial/AellyXDroid",
                     ),
                 ]
             ]

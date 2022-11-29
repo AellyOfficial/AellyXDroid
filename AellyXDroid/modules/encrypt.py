@@ -1,6 +1,6 @@
 import secureme
 
-from FallenRobot.events import register
+from AellyXDroid.events import register
 
 
 @register(pattern="^/encrypt ?(.*)")

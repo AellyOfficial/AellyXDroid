@@ -4,8 +4,8 @@ from typing import List
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from FallenRobot import StartTime, dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from AellyXDroid import StartTime, dispatcher
+from AellyXDroid.modules.disable import DisableAbleCommandHandler
 
 
 def get_readable_time(seconds: int) -> str:

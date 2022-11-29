@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import CallbackContext
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from AellyXDroid import dispatcher
+from AellyXDroid.modules.disable import DisableAbleCommandHandler
 
 from TruthDarePy import TD
 

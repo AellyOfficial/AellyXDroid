@@ -25,26 +25,26 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from FallenRobot import TIGERS, WOLVES, dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import (
+from AellyXDroid import TIGERS, WOLVES, dispatcher
+from AellyXDroid.modules.disable import DisableAbleCommandHandler
+from AellyXDroid.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from FallenRobot.modules.helper_funcs.extraction import (
+from AellyXDroid.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.misc import split_message
-from FallenRobot.modules.helper_funcs.string_handling import split_quotes
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql import warns_sql as sql
-from FallenRobot.modules.sql.approve_sql import is_approved
+from AellyXDroid.modules.helper_funcs.filters import CustomFilters
+from AellyXDroid.modules.helper_funcs.misc import split_message
+from AellyXDroid.modules.helper_funcs.string_handling import split_quotes
+from AellyXDroid.modules.log_channel import loggable
+from AellyXDroid.modules.sql import warns_sql as sql
+from AellyXDroid.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"

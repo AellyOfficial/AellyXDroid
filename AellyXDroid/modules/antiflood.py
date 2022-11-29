@@ -14,19 +14,19 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from FallenRobot import TIGERS, WOLVES, dispatcher
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.helper_funcs.alternate import send_message
-from FallenRobot.modules.helper_funcs.chat_status import (
+from AellyXDroid import TIGERS, WOLVES, dispatcher
+from AellyXDroid.modules.connection import connected
+from AellyXDroid.modules.helper_funcs.alternate import send_message
+from AellyXDroid.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql import antiflood_sql as sql
-from FallenRobot.modules.sql.approve_sql import is_approved
+from AellyXDroid.modules.helper_funcs.string_handling import extract_time
+from AellyXDroid.modules.log_channel import loggable
+from AellyXDroid.modules.sql import antiflood_sql as sql
+from AellyXDroid.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 

@@ -7,22 +7,22 @@ from telegram import Message, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-# from FallenRobot.modules.sql import warns_sql as warnssql
-import FallenRobot.modules.sql.blacklist_sql as blacklistsql
+# from AellyXDroid.modules.sql import warns_sql as warnssql
+import AellyXDroid.modules.sql.blacklist_sql as blacklistsql
 
-# from FallenRobot.modules.sql import cust_filters_sql as filtersql
-# import FallenRobot.modules.sql.welcome_sql as welcsql
-import FallenRobot.modules.sql.locks_sql as locksql
-import FallenRobot.modules.sql.notes_sql as sql
+# from AellyXDroid.modules.sql import cust_filters_sql as filtersql
+# import AellyXDroid.modules.sql.welcome_sql as welcsql
+import AellyXDroid.modules.sql.locks_sql as locksql
+import AellyXDroid.modules.sql.notes_sql as sql
 
-# from FallenRobot.modules.rules import get_rules
-import FallenRobot.modules.sql.rules_sql as rulessql
-from FallenRobot import JOIN_LOGGER, LOGGER, OWNER_ID, SUPPORT_CHAT, dispatcher
-from FallenRobot.__main__ import DATA_IMPORT
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.helper_funcs.alternate import typing_action
-from FallenRobot.modules.helper_funcs.chat_status import user_admin
-from FallenRobot.modules.sql import disable_sql as disabledsql
+# from AellyXDroid.modules.rules import get_rules
+import AellyXDroid.modules.sql.rules_sql as rulessql
+from AellyXDroid import JOIN_LOGGER, LOGGER, OWNER_ID, SUPPORT_CHAT, dispatcher
+from AellyXDroid.__main__ import DATA_IMPORT
+from AellyXDroid.modules.connection import connected
+from AellyXDroid.modules.helper_funcs.alternate import typing_action
+from AellyXDroid.modules.helper_funcs.chat_status import user_admin
+from AellyXDroid.modules.sql import disable_sql as disabledsql
 
 
 @run_async
@@ -326,7 +326,7 @@ def export_data(update, context):
         },
     }
     baccinfo = json.dumps(backup, indent=4)
-    with open("FallenRobot{}.backup".format(chat_id), "w") as f:
+    with open("AellyXDroid{}.backup".format(chat_id), "w") as f:
         f.write(str(baccinfo))
     context.bot.sendChatAction(current_chat_id, "upload_document")
     tgl = time.strftime("%H:%M:%S - %d/%m/%Y", time.localtime(time.time()))
@@ -342,15 +342,15 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("FallenRobot{}.backup".format(chat_id), "rb"),
-        caption="📤*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `FallenRobot-Backup` was specially made for notes 📚.".format(
+        document=open("AellyXDroid{}.backup".format(chat_id), "rb"),
+        caption="📤*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `AellyXDroid-Backup` was specially made for notes 📚.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("FallenRobot{}.backup".format(chat_id))  # Cleaning file
+    os.remove("AellyXDroid{}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data

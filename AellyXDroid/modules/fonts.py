@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from FallenRobot.utils.fonts import Fonts
-from FallenRobot import pbot as Client
+from AellyXDroid.utils.fonts import Fonts
+from AellyXDroid import pbot as Client
 
 
 @Client.on_message(filters.command(["font", "fonts"]))

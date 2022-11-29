@@ -2,8 +2,8 @@ import asyncio
 
 from pyrogram import filters
 
-from FallenRobot import pbot, OWNER_ID
-from FallenRobot.utils.mongo import (
+from AellyXDroid import pbot, OWNER_ID
+from AellyXDroid.utils.mongo import (
     alpha_to_int,
     get_karma,
     get_karmas,
@@ -13,8 +13,8 @@ from FallenRobot.utils.mongo import (
     karma_on,
     update_karma,
 )
-from FallenRobot.utils.admins import can_change_info
-from FallenRobot.utils.errors import capture_err
+from AellyXDroid.utils.admins import can_change_info
+from AellyXDroid.utils.errors import capture_err
 
 
 regex_upvote = r"^((?i)\+|\+\+|\+1|\+69|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|baby|thankyou|love|pro)$"

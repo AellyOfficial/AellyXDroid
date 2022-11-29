@@ -1,4 +1,4 @@
-from FallenRobot import aiohttpsession as session
+from AellyXDroid import aiohttpsession as session
 
 
 async def post(url: str, *args, **kwargs):

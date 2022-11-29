@@ -3,8 +3,8 @@ from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 from wikipedia.exceptions import DisambiguationError, PageError
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from AellyXDroid import dispatcher
+from AellyXDroid.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

@@ -4,8 +4,8 @@ from datetime import datetime
 from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 
-from FallenRobot import telethn as tbot
-from FallenRobot.events import register
+from AellyXDroid import telethn as tbot
+from AellyXDroid.events import register
 
 Anonymous = "Fallen"
 TMP_DOWNLOAD_DIRECTORY = "./"

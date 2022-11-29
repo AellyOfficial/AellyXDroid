@@ -18,8 +18,8 @@ from telethon import events
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-import FallenRobot.modules.sql.userinfo_sql as sql
-from FallenRobot import (
+import AellyXDroid.modules.sql.userinfo_sql as sql
+from AellyXDroid import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -29,14 +29,14 @@ from FallenRobot import (
     WOLVES,
     dispatcher,
 )
-from FallenRobot import telethn as FallenTelethonClient
-from FallenRobot.__main__ import STATS, TOKEN, USER_INFO
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import sudo_plus
-from FallenRobot.modules.helper_funcs.extraction import extract_user
-from FallenRobot.modules.sql.afk_sql import check_afk_status, is_afk
-from FallenRobot.modules.sql.global_bans_sql import is_user_gbanned
-from FallenRobot.modules.sql.users_sql import get_user_num_chats
+from AellyXDroid import telethn as FallenTelethonClient
+from AellyXDroid.__main__ import STATS, TOKEN, USER_INFO
+from AellyXDroid.modules.disable import DisableAbleCommandHandler
+from AellyXDroid.modules.helper_funcs.chat_status import sudo_plus
+from AellyXDroid.modules.helper_funcs.extraction import extract_user
+from AellyXDroid.modules.sql.afk_sql import check_afk_status, is_afk
+from AellyXDroid.modules.sql.global_bans_sql import is_user_gbanned
+from AellyXDroid.modules.sql.users_sql import get_user_num_chats
 
 
 def no_by_per(totalhp, percentage):

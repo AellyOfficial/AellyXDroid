@@ -6,8 +6,8 @@ import random
 import requests
 from PIL import Image, ImageDraw, ImageFont
 
-from FallenRobot import BOT_NAME, BOT_USERNAME, OWNER_ID, telethn
-from FallenRobot.events import register
+from AellyXDroid import BOT_NAME, BOT_USERNAME, OWNER_ID, telethn
+from AellyXDroid.events import register
 
 LOGO_LINKS = [
     "https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
@@ -257,7 +257,7 @@ async def lego(event):
         img = Image.open(io.BytesIO(requests.get(randc).content))
         draw = ImageDraw.Draw(img)
         image_widthz, image_heightz = img.size
-        fnt = glob.glob("./FallenRobot/resources/fonts/*")
+        fnt = glob.glob("./AellyXDroid/resources/fonts/*")
         randf = random.choice(fnt)
         font = ImageFont.truetype(randf, 120)
         w, h = draw.textsize(text, font=font)
@@ -290,7 +290,7 @@ async def lego(event):
         img = Image.open(io.BytesIO(requests.get(randc).content))
         draw = ImageDraw.Draw(img)
         image_widthz, image_heightz = img.size
-        fnt = glob.glob("./FallenRobot/resources/fonts/*")
+        fnt = glob.glob("./AellyXDroid/resources/fonts/*")
         randf = random.choice(fnt)
         font = ImageFont.truetype(randf, 120)
         w, h = draw.textsize(text, font=font)
