@@ -11,7 +11,7 @@ class Config(object):
     EVENT_LOGS = (-1001603837590)
 
     SQLALCHEMY_DATABASE_URI = "postgres://faisclyk:8qIQ96pzenRUW1X2xMfOjbwMTS0HAhP8@peanut.db.elephantsql.com/faisclyk"
-    MONGO_DB_URI = ""
+    MONGO_DB_URI = "mongodb+srv://anu:anu@cluster0.n1mhees.mongodb.net/?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss"]
     WEBHOOK = False
