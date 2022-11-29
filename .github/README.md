@@ -8,14 +8,14 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴀᴇʟʟʏ ✘ �
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-<a href="https://github.com/TheAnonymous2005/FallenRobot/stargazers"><img src="https://img.shields.io/github/stars/TheAnonymous2005/FallenRobot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/TheAnonymous2005/FallenRobot/network/members"> <img src="https://img.shields.io/github/forks/TheAnonymous2005/FallenRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/TheAnonymous2005/FallenRobot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/AellyOfficial/FallenRobot/stargazers"><img src="https://img.shields.io/github/stars/AellyOfficial/FallenRobot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/AellyOfficial/FallenRobot/network/members"> <img src="https://img.shields.io/github/forks/AellyOfficial/FallenRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/AellyOfficial/FallenRobot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/TheAnonymous2005/FallenRobot"> <img src="https://img.shields.io/github/repo-size/TheAnonymous2005/FallenRobot?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/TheAnonymous2005/FallenRobot/commits/AnonymousR1025"> <img src="https://img.shields.io/github/last-commit/TheAnonymous2005/FallenRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/AellyOfficial/FallenRobot"> <img src="https://img.shields.io/github/repo-size/AellyOfficial/FallenRobot?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<a href="https://github.com/AellyOfficial/FallenRobot/commits/AnonymousR1025"> <img src="https://img.shields.io/github/last-commit/AellyOfficial/FallenRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━
@@ -53,7 +53,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴀᴇʟʟʏ ✘ �
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ᴀɴᴜ](https://github.com/anunicn47  ➻  [ᴀɴᴜ](https://github.com/TheAnonymous2005/FallenRobot) </b>
+- <b>[ᴀɴᴜ](https://github.com/anunicn47  ➻  [ᴀɴᴜ](https://github.com/AellyOfficial/FallenRobot) </b>
 
 - <b>[ᴋᴀʀᴀɴ](https://github.com/kkara9009)  ➻  [sᴀɪᴛᴀᴍᴀ ʀᴏʙᴏᴛ](https://github.com/AnimeKaizoku/SaitamaRobot) </b>
 
