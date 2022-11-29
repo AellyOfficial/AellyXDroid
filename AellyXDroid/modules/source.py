@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** 𝝙𝗡𝗨
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -30,8 +30,8 @@ async def repo(_, message: Message):
                         "ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID
                     ),
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ",
-                        url="https://github.com/AellyOfficial/AellyXDroid",
+                        "𝝙𝗡𝗨",
+                        url="https://t.me/an_unic_or_n47",
                     ),
                 ]
             ]
