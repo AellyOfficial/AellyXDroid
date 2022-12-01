@@ -410,8 +410,7 @@ def anu_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                             text="ɢʙᴀɴ", callback_data="Help_12"
                         ),
-                    ],
-                    ],
+                    ]
                     [
                         InlineKeyboardButton(text="◁", callback_data="fallen_back"),
                     ],
