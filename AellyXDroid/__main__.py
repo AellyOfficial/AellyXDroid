@@ -92,12 +92,13 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ",
+            text="ᴀᴅᴅ ᴍᴇ ᴩᴜɪɪ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text=" ᴍᴀɴᴀɢᴇ ", callback_data="help_back"),
+        InlineKeyboardButton(text="🎶 ᴍᴜsɪᴄ 🎶", callback_data="fallen_"),
     ],
     [
         InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="fallen_"),
@@ -105,8 +106,6 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
-    ],
 ]
 
 HELP_STRINGS = f"""
