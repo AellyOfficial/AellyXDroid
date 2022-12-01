@@ -12,7 +12,7 @@ class Config(object):
 
     SQLALCHEMY_DATABASE_URI = "postgres://faisclyk:8qIQ96pzenRUW1X2xMfOjbwMTS0HAhP8@peanut.db.elephantsql.com/faisclyk"
     MONGO_DB_URI = "mongodb+srv://anu:anu@cluster0.n1mhees.mongodb.net/?retryWrites=true&w=majority"
-    LOAD = []
+    LOAD = [on]
     NO_LOAD = ["rss"]
     WEBHOOK = False
     INFOPIC = True
@@ -34,9 +34,9 @@ class Config(object):
         "CAACAgUAAxkBAAEDafNhq5Z0DegqVzauwSighMw5cPWp8QACVgQAAuUG0FRXfCEuBziNzCIE"
     )
     ALLOW_EXCL = True
-    CASH_API_KEY = ""
-    TIME_API_KEY = ""
-    BL_CHATS = []
+    CASH_API_KEY = "GUHZKUCUR2HQL1YG"
+    TIME_API_KEY = "DD6YGKX1SRC8"
+    BL_CHATS = [-1001603837590]
     SPAMMERS = None
     ALLOW_CHATS = True
     START_IMG = "https://te.legra.ph/file/c6883f6ebb2e07242f2b3.png"
