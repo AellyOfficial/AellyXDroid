@@ -458,6 +458,7 @@ def anu_about_callback(update: Update, context: CallbackContext):
 
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup
+        )
     elif query.data == "Help_4":
         query.message.edit_text(
             text="""*😜 ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ*"
